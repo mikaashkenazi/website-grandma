@@ -1,0 +1,61 @@
+/* myFormStyle.css - עיצוב טופס המלצה */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 20px;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+fieldset {
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 15px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.radio-img,
+.checkbox-img {
+    width: 100px;
+    margin: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.faded {
+    opacity: 0.5;
+}
